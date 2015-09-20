@@ -1,0 +1,14 @@
+{
+  "name": "learn-git",
+  "scripts": {
+    "start": "node_modules/reveal-md/bin/server-cli.js slides.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pitt-csc/learn-git.git"
+  },
+  "devDependencies": {
+    "reveal-md": "0.0.19"
+  }
+}
+

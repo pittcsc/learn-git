@@ -6,15 +6,76 @@ By Alex LaFroscia
 
 # What is Git?
 
----
+----
 
-# Why do I want this?
+## Version Control!
+
+- Save snapshots of your project
+- Rewind to any given snapshot
+- Easily work together on projects
+
+----
+
+## Why do I want this?
+
+- Try out some code without wrecking your project
+- Revert to a version where you know some feature worked
+- Back up your code to the cloud
 
 ---
 
 # How do I use it?
 
 ----
+
+# Step 1: Writing
+
+Write some code
+
+----
+
+# Step 2: Staging
+
+Pick which changes you want to bundle together
+
+```bash
+$ git add index.html // Add changes from one file...
+$ git add -A         // ... or all your current changes
+```
+
+----
+
+# Step 3: Committing
+
+Wrap the changes up in a _commit_ and give it a name
+
+```bash
+$ git commit -m 'Started index page'
+$ git commit -m 'Fixed a major bug'
+```
+
+----
+
+# Now what?
+
+- View a list of all your changes
+- Rewind the project to a specific _commit_
+- Revert to the last _committed_ state
+- Recover deleted files
+- Way more!
+
+---
+
+# How do I *really* use it?
+
+Need to see more?
+
+----
+
+# Demo?
+
+----
+
 
 ## Workshop on Thursday
 

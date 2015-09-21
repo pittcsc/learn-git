@@ -1,64 +1,58 @@
-# Git, Github and OSS
+# Version Control and Collaboration
 
-> A primer on working smarter and enabling collaboration
+> A primer on working smarter and enabling collaboration through a VCS
 
 By Alex LaFroscia
 
 ---
 
-# What is Git?
+# People are bad at coding
 
-Note: If you've been around the CSC for any amount of time, you've probably heard the term "Git" thrown around.  Before getting into what Git is, we should start with a simpler question...
-
-----
-
-# Why do I want it?
-
-Note: ... why would you want it?
+Note: If you think about it, we do stupid things all the time
 
 ----
 
-## You've been here, right?
-
-- "Fixed" some code, only to need to undo it
-- Deleted an important file
-- Removed code, then `ctl-z` to find it again
-- Commented out code to remember it
+- "Fixed" some code, messed it up, and need to undo everything
+- Deleted an important file and can't recover it
+- Moved some code while refactoring and can't remember what it was
+- Commented out code to remember it because you'll need it eventually
+- Wrote something a long time ago and forgot why
 
 Note: All of these thing suck, or make our code messy
 
 ----
 
-## Enter Version Control
+# You Need Version Control
+
+----
+
+## Two Simple Actions
 
 - Save snapshots of your project
 - Restore to any given snapshot
 
-Note: These versions are easy to browse through, so you can check out old versions of the project without needing to change a thing. This is great for keeping track of how something was done without needing to keep the code alive.
+Note: These two simple actions enable us to avoid all of the problems that we just looked at
 
 ----
 
-## That's it?
+- Easy rewind to the last working version
+- Recover a file from a previous snapshot
+- View previous snapshots to reference old versions
+- Leave yourself notes and details outside of the code itself
 
-<ul class='fragment'>
-    <li>Work on a new feature without breaking the whole project</li>
-    <li>Free yourself to experiement without committing</li>
-    <li>And...</li>
-</ul>
+----
 
-Note: You might be thinking "is that really it?" Well, there's more...
+## So many flavors!
+
+- Wikipedia lists over 40 types of VCSs, Git is just one
+- Git has been made popular in part thanks to Github and open-source code
+- You don't have to use Git, but please use something!
 
 ---
 
 # Collaboration
 
-----
-
-## Sharing a Repository
-
-![collaboration in Git](http://www.cs.swarthmore.edu/~adanner/cs40/f14/gitrepos.gif)
-
-Note: People have code locally, push it up to some central location, where someone else can pull it down.  Git makes sure that nothing destructive happens automatically.  For this to work, we need some place to store the version that we both push and pull from...
+Note: Many version control system have well-defined ways for sharing code between multiple developers.  Basically, this allows you to sync the snapshots that you have on your computer with those that other people have to make sure that everyone has the same code
 
 ----
 
@@ -78,13 +72,14 @@ Note: People have code locally, push it up to some central location, where someo
 
 ---
 
-# How do I use it?
+# How do I do it?
 
 ----
 
 ## Workshop on Thursday
 
 8:00pm, Sennott Square Rm. 5129
+
 
 ---
 

@@ -54,15 +54,34 @@ $ git commit -m 'Started index page'
 $ git commit -m 'Fixed a major bug'
 ```
 
-----
+---
 
 # Now what?
+
+----
 
 - View a list of all your changes
 - Rewind the project to a specific _commit_
 - Revert to the last _committed_ state
 - Recover deleted files
-- Way more!
+
+----
+
+# What about collaboration?
+
+----
+
+## Sharing a Repository
+
+![collaboration in Git](http://www.cs.swarthmore.edu/~adanner/cs40/f14/gitrepos.gif)
+
+----
+
+![Github](http://www.molecularecologist.com/wp-content/uploads/2013/11/github-logo.jpg)
+
+- Store code online
+- Find open source projects
+- Enables easy collaboration
 
 ---
 

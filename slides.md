@@ -87,3 +87,129 @@ Note: Many version control system have well-defined ways for sharing code betwee
 
 - [https://help.github.com](help.github.com)
 - [https://try.github.io](try.github.io)
+
+---
+
+# Git Workshop
+
+---
+
+# Tonight's Goal
+
+----
+
+1. Get Git installed and set up on our computers
+2. Understand and use the basic commands of Git
+3. Walk through the workflow of collaboration through Github
+
+----
+
+## Agenda
+
+- Go over some Git vocabulary and commands
+- Install Git, make Github accounts and set up authentication
+- Practice using Git, including working with a shared repository
+
+---
+
+# Vocab
+
+----
+
+# Repository
+
+- A project being organized by Git
+
+----
+
+# Commit
+
+- High level: A "snapshot" of your project
+- Low level: A record of changes since the last commit
+- Each has a unique identifier, called a *hash*
+- Contains information about what was added
+
+----
+
+# Branch
+
+- A collection of commits
+- *master* is the main branch
+- *branch off* from master and *merge* back in
+
+----
+
+![branch-diagram](http://4.bp.blogspot.com/-s2F8W3gotyA/UAhePAGYO7I/AAAAAAAACeY/1SzXhEd7flk/s1600/theirsmerge-during.png)
+
+----
+
+# Remote
+
+- A server that stores a copy of your repository
+- Used to save your work off-site and enable collaboration
+- You *push* to a server and *pull* from a server
+
+---
+
+# Commands
+
+----
+
+# `git status`
+
+> Check the current status of your project
+
+```bash
+$ git status
+On branch workshop-slides
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+    modified:   slides.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    test-file.txt
+```
+
+----
+
+# `git add`
+
+> *Stage* a set of changes to be part of the next commit
+
+```bash
+$ git add test-file.txt // Stage one file
+$ git add -A // Stage all of the current changes
+```
+
+----
+
+# `git commit`
+
+> Make a new commit
+
+```bash
+$ git commit // Will open your editor to write message
+$ git commit -m 'My commit message!' // Make commit with messge
+```
+
+----
+
+# `git push` and `pull`
+
+> Push to and pull from a remote
+
+```bash
+$ git push origin master
+$ git pull origin master
+```
+
+---
+
+# Now it's your turn!
+
+> http://github.com/pitt-csc/learn-git/wiki
+
+If there are any questions or problems, come see me!

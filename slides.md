@@ -78,7 +78,7 @@ Note: Many version control system have well-defined ways for sharing code betwee
 
 ## Workshop on Thursday
 
-8:00pm, Sennott Square Rm. 5129
+7:00pm, Sennott Square Rm. 5317
 
 
 ---
